@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню — Тёплый Зерно</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <div class="logo__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 10C4 10 4 14 8 18C12 22 16 18 20 14C24 10 20 6 20 6M4 10C4 10 8 6 12 10C16 14 20 6 20 6M4 10L2 12M20 6L22 4"/></svg>
+                </div>
+                <div class="logo__text">
+                    <span class="logo__title">Тёплый Зерно</span>
+                    <span class="logo__subtitle">ОБЖАРКА С 2014</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="menu.html" class="nav__link nav__link--active">Меню</a>
+                <a href="about.html" class="nav__link">О нас и контакты</a>
+            </nav>
+            <a href="#" class="btn btn--primary">Забронировать</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section-padding">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <div class="section-label">
+                        <span class="section-label__line"></span> МЕНЮ • ОСЕНЬ 2025
+                    </div>
+                    <h1 class="hero__title">Меню на каждый день</h1>
+                    <p class="hero__text">Обновляем карту два раза в сезон и оставляем постоянную классику. Любой напиток можно сделать на растительном молоке, а зерно — купить домой в упаковке 250 г или 1 кг.</p>
+                    <div class="filters">
+                        <button class="filter-btn active">Все позиции</button>
+                        <button class="filter-btn">Кофе</button>
+                        <button class="filter-btn">Холодные</button>
+                        <button class="filter-btn">Кухня</button>
+                        <button class="filter-btn">Зерно домой</button>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="hero-card__info">
+                        <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 4px;">Сезонный напиток — «Пряный латте»</h3>
+                        <p style="font-size: 13px; color: var(--text-muted);">Корица, имбирь, апельсиновая цедра · 360 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Меню -->
+        <section class="section-padding" style="padding-top: 0;">
+            <div class="container menu-grid">
+                <!-- Колонка 1 -->
+                <div>
+                    <h2 class="menu-col__title">Эспрессо и молоко</h2>
+                    <p class="menu-col__subtitle">Зерно собственной обжарки, молоко 3,2%</p>
+                    <ul class="menu-items">
+                        <li class="menu-item"><div><div class="menu-item__name">Эспрессо</div><div class="menu-item__desc">двойной, 40 мл</div></div><span class="menu-item__price">180 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Американо</div><div class="menu-item__desc">180 мл</div></div><span class="menu-item__price">200 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Флэт уайт</div><div class="menu-item__desc">двойное, 200 мл</div></div><span class="menu-item__price">320 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Капучино</div><div class="menu-item__desc">плотная пенка, 240 мл</div></div><span class="menu-item__price">290 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Латте</div><div class="menu-item__desc">мягкое молоко, 350 мл</div></div><span class="menu-item__price">310 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Раф ванильный</div><div class="menu-item__desc">сливки, стручок ванили</div></div><span class="menu-item__price">340 ₽</span></li>
+                    </ul>
+                </div>
+                <!-- Колонка 2 -->
+                <div>
+                    <h2 class="menu-col__title">Альтернатива и холодное</h2>
+                    <p class="menu-col__subtitle">Овсяное, миндальное и кокосовое +40 ₽</p>
+                    <ul class="menu-items">
+                        <li class="menu-item"><div><div class="menu-item__name">Фильтр Гуджи</div><div class="menu-item__desc">воронка V60, 250 мл</div></div><span class="menu-item__price">380 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Колд брю</div><div class="menu-item__desc">настаиваем 16 часов</div></div><span class="menu-item__price">360 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Айс-латте</div><div class="menu-item__desc">лёд, молоко, двойной</div></div><span class="menu-item__price">330 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Матча-латте</div><div class="menu-item__desc">церемониальная, 300 мл</div></div><span class="menu-item__price">350 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Какао</div><div class="menu-item__desc">тёмный шоколад 70%</div></div><span class="menu-item__price">280 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Бамбл</div><div class="menu-item__desc">апельсин и эспрессо</div></div><span class="menu-item__price">340 ₽</span></li>
+                    </ul>
+                </div>
+                <!-- Колонка 3 -->
+                <div>
+                    <h2 class="menu-col__title">Кухня</h2>
+                    <p class="menu-col__subtitle">Выпечка собственной пекарни</p>
+                    <ul class="menu-items">
+                        <li class="menu-item"><div><div class="menu-item__name">Круассан классический</div><div class="menu-item__desc">сливочное масло</div></div><span class="menu-item__price">190 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Синнабон</div><div class="menu-item__desc">корица и крем-чиз</div></div><span class="menu-item__price">260 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Авокадо-тост</div><div class="menu-item__desc">ржаной хлеб, яйцо пашот</div></div><span class="menu-item__price">420 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Гранола с йогуртом</div><div class="menu-item__desc">мёд, сезонные ягоды</div></div><span class="menu-item__price">310 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Сырники</div><div class="menu-item__desc">сметана и джем</div></div><span class="menu-item__price">350 ₽</span></li>
+                        <li class="menu-item"><div><div class="menu-item__name">Сэндвич с индейкой</div><div class="menu-item__desc">песто и руккола</div></div><span class="menu-item__price">390 ₽</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Зерно домой -->
+        <section class="section-padding bg-alt">
+            <div class="container beans-container">
+                <div>
+                    <div class="section-label"><span class="section-label__line"></span> ЗЕРНО ДОМОЙ</div>
+                    <h2 class="beans__title">Свежая обжарка каждую пятницу</h2>
+                    <p class="beans__text">Молем в день покупки, пишем дату обжарки на пакете. Для дома советуем помол «средний» — он подойдёт для воронки и капельной кофеварки.</p>
+                    <div class="beans__actions">
+                        <a href="#" class="btn btn--primary">Купить зерно</a>
+                        <span style="font-size: 14px; color: var(--text-muted);">Доставка по городу — 250 ₽</span>
+                    </div>
+                </div>
+                <div class="beans-grid">
+                    <div class="product-card">
+                        <div class="product-card__img"></div>
+                        <h3 class="product-card__name">Эфиопия Гуджи</h3>
+                        <p class="product-card__desc">жасмин, абрикос</p>
+                        <div class="product-card__price">1 850 ₽</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__img"></div>
+                        <h3 class="product-card__name">Бразилия Серрадо</h3>
+                        <p class="product-card__desc">шоколад, орех</p>
+                        <div class="product-card__price">1 450 ₽</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__img"></div>
+                        <h3 class="product-card__name">Колумбия Уила</h3>
+                        <p class="product-card__desc">карамель, слива</p>
+                        <div class="product-card__price">1 620 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div>© 2025 Кофейня «Тёплый Зерно» · ул. Покровская, 14</div>
+            <div class="footer__info">
+                <span>Ежедневно 8:00–21:00</span>
+                <a href="tel:+74952140833" class="footer__phone">+7 (495) 214-08-33</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

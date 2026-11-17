@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас и контакты — Тёплый Зерно</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <div class="logo__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 10C4 10 4 14 8 18C12 22 16 18 20 14C24 10 20 6 20 6M4 10C4 10 8 6 12 10C16 14 20 6 20 6M4 10L2 12M20 6L22 4"/></svg>
+                </div>
+                <div class="logo__text">
+                    <span class="logo__title">Тёплый Зерно</span>
+                    <span class="logo__subtitle">ОБЖАРКА С 2014</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="menu.html" class="nav__link">Меню</a>
+                <a href="about.html" class="nav__link nav__link--active">О нас и контакты</a>
+            </nav>
+            <a href="#" class="btn btn--primary">Забронировать</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- О кофейне -->
+        <section class="section-padding">
+            <div class="container about-hero">
+                <div class="about-hero__image">
+                    <div class="about-hero__founder-card">
+                        <h4 style="font-size: 16px; font-weight: 600;">Анна и Марк Гридневы</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">Основатели · обжарщик и шеф-бариста</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section-label"><span class="section-label__line"></span> О КОФЕЙНЕ</div>
+                    <h1 class="about-hero__title">Маленькая обжарка на Покровской</h1>
+                    <p class="about-hero__text">Мы открылись в 2014 году с одним обжарочным барабаном на 5 килограммов. Сегодня у нас три стола для обжарки, шесть сортов в постоянной карте и команда из девяти человек. Мы сами ездим на плантации в Уилу и Гуджи, чтобы выбирать зерно на месте.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item"><span class="stat-item__val">11 лет</span><span class="stat-item__label">на Покровской</span></div>
+                        <div class="stat-item"><span class="stat-item__val">9</span><span class="stat-item__label">человек в команде</span></div>
+                        <div class="stat-item"><span class="stat-item__val">240</span><span class="stat-item__label">чашек в день</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Принципы -->
+        <section class="section-padding" style="padding-top: 0;">
+            <div class="container">
+                <div class="section-header-row">
+                    <div>
+                        <div class="section-label"><span class="section-label__line"></span> ПРИНЦИПЫ</div>
+                        <h2 style="font-size: 40px; font-weight: 700;">Во что мы верим</h2>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-muted); max-width: 300px;">Три вещи, которые не меняются с открытия: честная цена, свежее зерно и внимательные бариста.</p>
+                </div>
+
+                <div class="principles-grid">
+                    <div class="principle-card">
+                        <div class="principle-card__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                        </div>
+                        <h3 class="principle-card__title">Прямые поставки</h3>
+                        <p class="principle-card__text">Работаем с 14 фермами без посредников и платим выше рынка на 20–30%.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-card__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        </div>
+                        <h3 class="principle-card__title">Обжарка каждую неделю</h3>
+                        <p class="principle-card__text">Ставим дату обжарки на пакет. Никогда не продаём зерно старше 30 дней.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-card__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3 class="principle-card__title">Люди и сервис</h3>
+                        <p class="principle-card__text">Все бариста проходят 40 часов обучения и сдают экзамен по сенсорике.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="section-padding bg-alt">
+            <div class="container contacts-container">
+                <div>
+                    <div class="section-label"><span class="section-label__line"></span> КОНТАКТЫ</div>
+                    <h2 class="contacts-title">Заходите на чашку</h2>
+                    
+                    <div class="contacts-list">
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <div class="contact-item__label">АДРЕС</div>
+                                <div class="contact-item__value">Москва, ул. Покровская, 14, вход со двора</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <div class="contact-item__label">ТЕЛЕФОН</div>
+                                <div class="contact-item__value">+7 (495) 214-08-33</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <div class="contact-item__label">ПОЧТА</div>
+                                <div class="contact-item__value">hello@teplyzerno.ru</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </div>
+                            <div>
+                                <div class="contact-item__label">СОЦСЕТИ</div>
+                                <div class="contact-item__value">@teplyzerno · ежедневно 8:00–21:00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn--primary">Забронировать стол</a>
+                </div>
+
+                <div class="map-wrapper">
+                    <div class="map-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        5 минут от м. Чистые пруды
+                    </div>
+                    <div class="map-card">
+                        <div>
+                            <div style="font-size: 15px; font-weight: 600;">Кофейня «Тёплый Зерно»</div>
+                            <div style="font-size: 13px; color: var(--text-muted);">ул. Покровская, 14 · первый этаж, вход со двора</div>
+                        </div>
+                        <a href="#" class="map-card__route">Построить маршрут</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div>© 2025 Кофейня «Тёплый Зерно» · ул. Покровская, 14</div>
+            <div class="footer__info">
+                <span>Ежедневно 8:00–21:00</span>
+                <a href="tel:+74952140833" class="footer__phone">+7 (495) 214-08-33</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

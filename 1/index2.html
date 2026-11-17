@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная — Тёплый Зерно</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <div class="logo__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 10C4 10 4 14 8 18C12 22 16 18 20 14C24 10 20 6 20 6M4 10C4 10 8 6 12 10C16 14 20 6 20 6M4 10L2 12M20 6L22 4"/></svg>
+                </div>
+                <div class="logo__text">
+                    <span class="logo__title">Тёплый Зерно</span>
+                    <span class="logo__subtitle">ОБЖАРКА С 2014</span>
+                </div>
+            </a>
+            <nav class="nav">
+                <a href="menu.html" class="nav__link">Меню</a>
+                <a href="about.html" class="nav__link">О нас и контакты</a>
+            </nav>
+            <a href="#" class="btn btn--primary">Забронировать</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="section-padding">
+            <div class="container home-hero__container">
+                <div class="home-hero__content">
+                    <div class="section-label"><span class="section-label__line"></span> ОБЖАРКА НА МЕСТЕ</div>
+                    <h1 class="home-hero__title">Кофе, который согревает с первой чашки</h1>
+                    <p class="hero__text" style="margin-bottom: 40px;">Мы обжариваем зерно каждую неделю небольшими партиями, варим на воде 92 °C и подаём в керамике ручной работы. Здесь можно работать за большим столом у окна или просто выпить эспрессо на ходу.</p>
+                    <div class="home-hero__actions">
+                        <a href="menu.html" class="btn btn--primary">Смотреть меню</a>
+                        <a href="about.html" class="btn btn--outline">Как нас найти</a>
+                    </div>
+                    <div class="home-hero__stats">
+                        <div class="stat-item"><span class="stat-item__val">11</span><span class="stat-item__label">сортов зерна</span></div>
+                        <div class="stat-item"><span class="stat-item__val">8 мин</span><span class="stat-item__label">средний заказ</span></div>
+                        <div class="stat-item"><span class="stat-item__val">4,9</span><span class="stat-item__label">рейтинг гостей</span></div>
+                    </div>
+                </div>
+                <div class="home-hero__image-wrap">
+                    <div class="home-hero__image placeholder"></div>
+                    <div class="home-hero__badge">Открыто до 21:00</div>
+                    <div class="home-hero__bottom-card">
+                        <div>
+                            <div style="font-size: 15px; font-weight: 600;">Утренняя обжарка · Эфиопия Гуджи</div>
+                            <div style="font-size: 12px; color: var(--text-muted);">Свежая партия — сегодня в 07:40</div>
+                        </div>
+                        <div style="font-weight: 600; color: var(--accent); font-size: 14px;">1 850 ₽ / 250 г</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Выбор бариста -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header-row">
+                    <div>
+                        <div class="section-label"><span class="section-label__line"></span> ВЫБОР БАРИСТА</div>
+                        <h2 style="font-size: 40px; font-weight: 700;">Три чашки, с которых стоит начать</h2>
+                    </div>
+                    <a href="menu.html" class="link-all">Всё меню &rarr;</a>
+                </div>
+                
+                <div class="barista-grid">
+                    <div class="barista-card">
+                        <div class="barista-card__img">
+                            <span class="barista-card__tag" style="background: var(--border-color);">хит</span>
+                        </div>
+                        <h3 class="barista-card__title">Флэт уайт</h3>
+                        <p class="barista-card__desc">Двойной эспрессо, микропенка из молока 3,2%</p>
+                        <div class="barista-card__footer">
+                            <span class="barista-card__price">320 ₽</span>
+                            <a href="#" class="barista-card__add">Добавить в заказ</a>
+                        </div>
+                    </div>
+                    <div class="barista-card">
+                        <div class="barista-card__img">
+                            <span class="barista-card__tag" style="background: var(--bg-alt);">новинка</span>
+                        </div>
+                        <h3 class="barista-card__title">Фильтр Гуджи</h3>
+                        <p class="barista-card__desc">Ручная воронка V60, ноты жасмина и абрикоса</p>
+                        <div class="barista-card__footer">
+                            <span class="barista-card__price">380 ₽</span>
+                            <a href="#" class="barista-card__add">Добавить в заказ</a>
+                        </div>
+                    </div>
+                    <div class="barista-card">
+                        <div class="barista-card__img">
+                            <span class="barista-card__tag" style="background: var(--border-color);">классика</span>
+                        </div>
+                        <h3 class="barista-card__title">Капучино классик</h3>
+                        <p class="barista-card__desc">Плотное молоко, какао-пудра, керамика 240 мл</p>
+                        <div class="barista-card__footer">
+                            <span class="barista-card__price">290 ₽</span>
+                            <a href="#" class="barista-card__add">Добавить в заказ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Атмосфера -->
+        <section class="section-padding bg-alt">
+            <div class="container atmosphere-container">
+                <div>
+                    <div class="section-label"><span class="section-label__line"></span> АТМОСФЕРА</div>
+                    <h2 class="atmosphere__title">Большой стол, тихий зал и всегда свежая выпечка</h2>
+                    <p class="atmosphere__text">В зале 28 мест, отдельная тихая комната для встреч и розетки у каждого стола. Круассаны выпекаем дважды в день — в 8:00 и в 15:00. Wi-Fi без пароля, вода с лимоном бесплатно.</p>
+                    
+                    <ul class="info-list">
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Пн–Пт <span style="margin-left: auto; color: var(--text-muted);">8:00 – 21:00</span></li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Сб–Вс <span style="margin-left: auto; color: var(--text-muted);">9:00 – 22:00</span></li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg> Wi-Fi <span style="margin-left: auto; color: var(--text-muted);">TeplyZerno · без пароля</span></li>
+                    </ul>
+                </div>
+                
+                <div class="atmosphere-grid">
+                    <div class="atmo-img-1"></div>
+                    <div class="atmo-img-2"></div>
+                    <div class="atmo-img-3">
+                        <span>СЕТ ДНЯ</span>
+                        <h4>Кофе + круассан 450 ₽</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div>© 2025 Кофейня «Тёплый Зерно» · ул. Покровская, 14</div>
+            <div class="footer__info">
+                <span>Ежедневно 8:00–21:00</span>
+                <a href="tel:+74952140833" class="footer__phone">+7 (495) 214-08-33</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
